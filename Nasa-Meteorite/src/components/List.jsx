@@ -111,10 +111,6 @@ const List = ({ data, currPage }) => {
       <section id="list-view">
         <Typography level="h2">List View</Typography>
 
-        <Typography level="body-sm" textAlign="center" sx={{ mb: 2 }}>
-          The table body is scrollable.
-        </Typography>
-
         <Sheet variant="outlined" color="neutral" sx={{ height: 400, boxShadow: "sm", borderRadius: "sm" }}>
           <TableToolbar numSelected={selected.length} />
 
@@ -204,10 +200,6 @@ const List = ({ data, currPage }) => {
                   <td colSpan={6} aria-hidden />
                 </tr>
               )}
-
-              {/* {data.map((item) => {
-                return <Card key={item.id} data={item} />;
-              })} */}
             </tbody>
             <tfoot>
               <tr>
