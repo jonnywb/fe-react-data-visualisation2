@@ -1,7 +1,9 @@
+import Typography from "@mui/joy/Typography";
+
 const Header = () => {
   return (
     <header>
-      <h1>Nasa Meteorite</h1>
+      <Typography level="h1">Nasa Meteorite</Typography>
     </header>
   );
 };

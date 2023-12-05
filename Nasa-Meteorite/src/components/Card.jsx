@@ -8,10 +8,8 @@ const Card = ({ data }) => {
       <td>{data.mass}</td>
       <td>{data.fall}</td>
       <td>{data.year}</td>
-      <tr>
-        <td>{data.geolocation.latitude}</td>
-        <td>{data.geolocation.longitude}</td>
-      </tr>
+      <td>{data.geolocation.latitude}</td>
+      <td>{data.geolocation.longitude}</td>
     </tr>
   );
 };

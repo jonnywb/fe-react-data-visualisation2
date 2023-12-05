@@ -1,3 +1,5 @@
+import Button from "@mui/joy/Button";
+
 const Navigation = ({ setCurrPage }) => {
   const handleClick = (e) => {
     const pageNum = e.target.getAttribute("listId");
@@ -6,15 +8,15 @@ const Navigation = ({ setCurrPage }) => {
 
   return (
     <nav>
-      <a listid="0" className="nav-link" onClick={handleClick}>
+      <Button variant="plain" listid="0" onClick={handleClick}>
         List View
-      </a>
-      <a listid="1" className="nav-link" onClick={handleClick}>
+      </Button>
+      <Button variant="plain" listid="1" onClick={handleClick}>
         Graph View
-      </a>
-      <a listid="2" className="nav-link" onClick={handleClick}>
+      </Button>
+      <Button variant="plain" listid="2" onClick={handleClick}>
         Map View
-      </a>
+      </Button>
     </nav>
   );
 };

@@ -1,8 +1,10 @@
+import Typography from "@mui/joy/Typography";
+
 const Map = ({ currPage }) => {
   if (currPage === "2") {
     return (
       <section id="map-view">
-        <h2>Map View</h2>
+        <Typography level="h2">Map View</Typography>
       </section>
     );
   }
