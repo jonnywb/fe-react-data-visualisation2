@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: #093a8d;
+  padding: 1rem;
+}
+
+h1 {
+  color: #f8f8f8;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
